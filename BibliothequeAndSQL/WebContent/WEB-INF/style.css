@@ -1,0 +1,140 @@
+@charset "ISO-8859-1";
+body{
+	background-color: transparent;
+}
+header{ 
+	width:100%;
+	height: 95px;
+    margin:0.5rem;
+    color:white;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center; 
+    background-color:#4fa746;
+    font-weight:bold;
+    font-size: 20px;
+    
+}
+ a {
+    color:white;
+}
+.menu{
+	display: flex;
+	justify-content: space-around;
+	align-items:flex-end;
+}
+nav{
+	display:flex;
+	flex-direction: column;
+}
+
+#adherent {
+  	font-family: Arial, Helvetica, sans-serif;
+  	border-collapse: collapse;
+  	width: 80%;
+  	text-align: center;
+  	align-items:center;
+}
+ul, li {
+	display:flex;
+	justify-content: space-evenly;
+	padding: 20px;
+	list-style: none;
+}
+.btnContainer{
+	position:absolute;
+	z-index: 30;
+}
+thead{
+	font-weight: bold;
+	text-align: center;
+}
+
+#adherent td, #adherent th {
+  	border: 1px solid #ddd;
+  	padding: 8px;
+}
+
+#adherent tr:nth-child(even){background-color: #f2f2f2;}
+
+#adherent tr:hover {background-color: #ddd;}
+
+#adherent th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+.container{
+	display:flex;
+	align-items:center;	
+	flex-direction: column;
+}
+input,  textarea{
+	padding: 1 rem 0.4rem;
+	font-size: 1.1rem;
+	width: 100%;
+	color: darklategray;
+}
+ .form-adherent .btn_main {
+ 	background-color:#2C363F;
+ 	color:#fafaff;
+ 	font-size: 1.6rem; 
+ 	}
+ .formCreate,  .formFind{
+ 	background: rgba(0,0,0,0.8);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	display: none; /* the form is hidden*/
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+ 	}
+ .popup-content, .form-adherent-create, .form-adherent-modify{
+ 	width: 500px;
+ 	background: white;
+ 	padding: 20px;
+ 	position: relative;
+ 	display:flex;
+ 	flex-direction: column;
+ 	align-items:center;
+	justify-content: center;
+	text-align: center;
+	border-radius: 5px;
+ 	}
+ .form-adherent-create, .form-adherent-modify{
+ 	height: 90%;
+ }
+ .popup-content{
+	height: 250px;
+	}
+ .popup-content >*{
+ 	margin: 5px;
+ }
+ .popup input{
+ 	width: 90%;
+ 	}
+ .bi-x-circle-fill{
+ 	position: absolute;
+ 	top: -15px;
+ 	right:-15px;
+ 	background:white;
+ 	height: 20px;
+ 	width: 20px;
+ 	border-radius: 50%;
+ 	box-shadow: 6px 6px 29px -4px rgba(0,0,0,0.75);
+ 	cursor: pointer;
+ 	}
+ .delete button{
+ border:none;
+ background-color:transparent;
+ box-shadow:none;
+ }
+ .btn-danger {
+    color: #dc3545;
+    background-color: transparent;
+    border: none;
+ }
