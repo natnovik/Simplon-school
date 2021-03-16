@@ -1,5 +1,2 @@
-# hello-world
-this is  a trial
+# simplon study projects
 
-Hello!
-I am a new here! let's discover all feautures of Git :)
