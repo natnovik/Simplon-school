@@ -12,5 +12,5 @@
   * add burger menu 
   * adopt a shopping basket in a user friendly way
   * video on the main page is broken after deploy https://simplon-basket-ceramicshop.netlify.app/index.html
-### Deploy: <br> [![Netlify Status](https://api.netlify.com/api/v1/badges/742a9740-e1ad-44a0-8bce-6e411c539cc8/deploy-status)](https://app.netlify.com/sites/simplon-basket-ceramicshop/deploys)<br>
+### Deploy: <br> [![Netlify Status](https://api.netlify.com/api/v1/badges/742a9740-e1ad-44a0-8bce-6e411c539cc8/deploy-status)](https://app.netlify.com/sites/simplon-basket-ceramicshop/deploys)<br> 
 ### **Note:** All images and videos were used from free public services and exceptionally for studying purpose
